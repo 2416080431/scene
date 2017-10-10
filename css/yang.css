@@ -1,0 +1,43 @@
+.yang{
+				font-size:36px;
+			}
+			.swiper-slide:nth-child(2){
+				background:url(../images/1.jpg) no-repeat;
+				background-size:100% 100%;
+				
+			}
+			.yang img{
+				width:100%;
+			}
+			.curtain{
+				position:absolute;
+				top:0;
+			}
+			.botm{
+				position:absolute;
+				bottom:0;
+			}
+			.tim{
+				position:absolute;
+				top:33%;
+				width: 100%;
+			}
+			.tim p{
+				text-align:center;
+				font-size:2em;
+				
+			}
+			.box2{
+				overflow:hidden;
+			}
+			.skill>img{
+				position:relative;
+				left:0;
+				width:20%;
+				float: left;
+			}
+			.skill p{
+				font-size:1em;
+				width: 75%;
+				float: left;
+			}

@@ -1,0 +1,53 @@
+.zhou img{
+    		background-size: 100%;
+    	}
+    	
+    	#dongtu{
+    		width: 1000px;
+    		height: 600px;
+    	}
+		.tupian{
+			width: 100%;
+			height: 100vh;
+			background: url(../img/3.0.jpg)no-repeat;
+			background-size: 100% 100%;
+		}
+		.renwu{
+			width: 1000px;
+			height: 500px;
+			position: absolute;
+			bottom: 0px;
+			left: -100px;
+			
+		}
+		.aike{
+			width: 1000px;
+			height: 500px;
+			position: absolute;
+			top: 600px;
+			left: 400px;
+		}
+		.zhou .aike>p{
+			position: absolute;
+			top: 100px;
+			left: -300px;
+			
+		}
+		.zhou p{
+			width: 350px;
+			height: 150px;
+			font-size: 35px;
+			color: black;
+			background-color: darkslategrey;
+			border-radius: 10px;
+			position: absolute;
+			bottom: 300px;
+			left: 450px;
+		}
+		
+		p>a{
+			font-size: 50px;
+			color: red;
+			
+			
+		}

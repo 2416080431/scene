@@ -3,13 +3,69 @@
 	padding: 0;
 	text-decoration: none;
 	list-style: none;
+	color: #fff;
 }
 
 html,body{
 	height: 100%;
+	overflow: hidden;
 }
 .swiper-container {
       width: 100%;
       height: 100%;
       overflow: hidden;
-    }
+}
+.houzi-bg{
+	background: url(../img/houzi-bg.jpg) no-repeat;
+	background-size: 100% 100%;
+	font-size: 50px;
+}
+.houzi1,.houzi2,.houzi3,.houzi4{
+	width: 30%;
+	position: absolute;
+	bottom: 100px;
+	left: 15%;
+}
+.huli1{
+	width: 30%;
+	position: absolute;
+	top: 10%px;
+		right: 20%;
+}
+.houzi2{
+	display: none;
+}
+.houzi3{
+	width: 90%;
+	left: 0;
+}
+.houzi5{
+	width: 100%;
+	position: absolute;
+	left: -23%;
+	top: 10%;
+}
+.word1,.word2,.word3{
+	position: absolute;
+	bottom: 20%;
+	left: 50%;
+}
+.bangzi{
+	height: 0px;
+	position: absolute;
+	bottom: 100px;
+	left: 50%;
+}
+.end{
+	height: 100%;
+	width: 100%;
+}
+.end1{
+	position: absolute;
+	top: 0;
+	padding-top: 40%;
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,.6);
+	text-align: center;
+}

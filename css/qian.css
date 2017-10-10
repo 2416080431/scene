@@ -1,0 +1,103 @@
+@-webkit-keyframes FadeIn{
+				0%{
+					opacity: 0;
+				}
+				100%{
+					opacity: 0.9;
+				}
+			}
+			@-webkit-keyframes Append{
+				from{opacity: 0;right: 100%;}
+				to{opacity: 1;right: 5%;}
+			}
+			@-webkit-keyframes move1{
+				0%{
+					top: 450px;
+					right: 22%;
+					opacity: 1;
+					transform: rotate(0deg);
+				}
+				100%{
+					top: 750px;
+					right: 90%;
+					opacity: 1;
+					transform: rotate(1440deg);
+				}
+			}
+			@-webkit-keyframes move2{
+				0%{
+					top: 750px;
+					right: 90%;
+					opacity: 1;
+					transform: rotate(0deg);
+				}
+				100%{
+					top: 1150px;
+					right: 5%;
+					opacity: 1;
+					transform: rotate(1440deg);
+				}
+			}
+			@-webkit-keyframes move3{
+				from{
+					left: 100%;opacity: 0;
+					transform: skewX(0deg);
+				}
+				to{
+					left: 20%;
+					opacity: 1;
+					transform: skewX(-30deg);
+				}
+			}
+			
+			.Faker{
+				height: 100vh;
+				background: url(../img/bg.jpeg) no-repeat;
+				background-size: cover;
+				opacity: 1.5;
+			}
+			
+			.moon{
+				position: absolute;
+				top: -3%;
+				right: 50%;
+				width: 25%;
+				border-radius: 50%;
+				animation: FadeIn 2s forwards;
+			}
+			
+			.jie{
+				width: 35%;
+				position: absolute;
+				opacity: 0;
+				top: 300px;
+				animation: Append 1.5s linear 2s 1 forwards;
+			}
+			
+			.feibiao1{
+				position: absolute;
+				top: 450px;
+				right: 22%;opacity: 0;
+				animation: move1 1.5s linear 4s;
+			}
+			.feibiao2{
+				position: absolute;
+				top: 750px;
+				right: 90%;opacity: 0;
+				animation: move2 2s linear 5.5s forwards;
+			}
+			.montage{
+				position: absolute;
+				top:700px;width: 50%;
+				left: 2%;opacity: 0;
+				animation: FadeIn 2s linear 5.8s forwards;
+			}
+			.qian p{
+				position: absolute;
+				top: 1150px;left:30%;
+				opacity: 0;
+				font-size: 4em;
+				color: #C7254E;
+				font-family: "楷体";
+				animation: move3 1.5s linear 7.8s forwards;
+			}

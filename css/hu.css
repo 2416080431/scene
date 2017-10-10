@@ -1,0 +1,43 @@
+.left {
+				float: left;
+				height: 100%;
+				width: 50%;
+				background: url(../images/images/2_02.png) no-repeat;
+				background-size: 100% 100%;
+				
+			}
+			.right {
+				float: right;
+				height: 100%;
+				width: 50%;
+				background: url(../images/images/3_03.png) no-repeat;
+				background-size: 100% 100%;
+			}
+			.hu p{
+				color: white;
+				font-size: 50px;
+				margin: 0 20px 0 20px;
+			}
+			.p {
+				float: right;
+			}
+			.p1 {
+				text-align: center;
+				font-size: 20px;
+				color: #CC9933;
+			}
+			b{
+				font-size: 20px;
+			}
+			.love {
+				position: absolute;
+				top: 25%;
+				left: 25%;
+				opacity: 0.9;
+				width: 50%;
+				height: 50%;
+				background: url(../images/30-1F405131Z90-L.gif) no-repeat;
+				background-size: 100% 100%;
+				border-radius: 25%;
+				z-index: 999;
+			}
